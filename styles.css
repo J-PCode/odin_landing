@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+body{
+    background-color: #1F2937;
+    }
+ul, a{
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+#logo{
+    display:inline;
+    font-size: 24px;
+    color: #F9faf8;
+    margin-right: auto;
+}
+.header li{
+    display: inline;
+    margin: 8px 16px;
+}
+.header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    }
+    .outer1{
+        background-color:#F9faf8;
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .hero, .item, .quote, .calltoaction{
+    
+        height: 500px;
+    }   
+    .hero, .item, .header, .footer, .quote, .calltoaction{
+        width: 1000px;
+        margin: auto;
+    }   
+    p {
+        font-size: 18px;
+    }
+    h3{
+        font-size:24px;
+        font-weight: 700;
+    }
+    .outer2{
+        width: 100vw;
+        margin: 0 auto;
+    }
+/* hero section alkaa tästä */
+.hero{
+display:flex;
+align-items:center;
+}
+.heroaction{
+    width: 50%;
+    color: #F9faf8;
+}
+.heroaction h1{
+font-size:48px;
+font-weight: bolder;
+margin-bottom: 0;
+}
+.heroaction p{
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-color: #3882f6;
+    border-radius: 5px;
+    color: #F9faf8;
+
+}
+
+.heroimage{
+    width: 700px;
+    height: 350px;
+    border:#F9faf8;
+    background-color: gray;
+}
+
+/* hero section päättyy tähän */
+/* itemit section alkaa tästä */
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+.itemit{
+    display:flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.item h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;    
+    text-transform: capitalize;
+}
+.itemi{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.placeholder{
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    height: 220px;
+    width: 220px;
+    margin: auto;
+}
+/* itemit päättyy tähän */
+/* quote starts here */
+.outer2{
+
+    background-color: #E5E7EB;
+}
+.quote blockquote p, .quote figcaption{
+font-size:  36px;
+font-style: italic;
+color: #1f2937;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote figcaption{
+    align-self:flex-end;
+    font-weight:bolder;
+
+}
+/* call to action alkaa tästä */
+.calltoaction{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.action{
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-evenly;
+background-color: #3882f6;
+color: #F9faf8;
+height: 150px;
+border-radius: 15px;
+}
+.leftaction{
+
+}
+.rightaction{
+border: 3px solid #F9faf8;
+border-radius: 15px;
+
+}
+/* footer alkaa tästä */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: #F9faf8
+}
